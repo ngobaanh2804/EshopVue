@@ -1,0 +1,24 @@
+﻿.toolbar {
+    display: flex;
+    height: 25px;
+    border: 1px solid #ccc;
+    padding: 2px;
+    background-color: #0c0048 !important;
+}
+
+    .toolbar button {
+        background-color: #0c0048;
+        align-items: center;
+        height: 100%;
+        border-radius: unset;
+        border-style: solid;
+        border-width: 1px;
+        border-color: #0c0048;
+        outline: none;
+        color: #ffffff;
+        display: flex;
+    }
+
+        .toolbar button:hover {
+            border-color: #66bdf7;
+        }

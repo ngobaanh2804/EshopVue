@@ -1,0 +1,6 @@
+﻿.content {
+    width: calc(100% - 226px);
+    height: calc(100% - 76px);
+    float: right;
+    margin: 8px;
+}

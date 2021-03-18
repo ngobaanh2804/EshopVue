@@ -1,0 +1,75 @@
+﻿.menu {
+    position: absolute;
+    background-color: #0f0474;
+    width: 210px;
+    height: 100%;
+}
+
+    .menu .logo {
+        background-color: #0c0048;
+        height: 60px;
+    }
+
+        .menu .logo .menu-logo {
+            background: url('../data/Logo_Full_White.png') no-repeat -19px -5px;
+            width: 176px;
+            height: 60px;
+            margin-left: 10px;
+        }
+
+    .menu .menu-item {
+        display: flex;
+        width: calc(100% - 8px);
+        height: 60px;
+        align-items: center;
+        padding-left: 8px;
+        border-top: 1px solid #0f0474;
+        border-bottom: 1px solid #0f0474;
+        cursor: pointer;
+    }
+
+        .menu .menu-item:hover {
+            background-color: #bb7728;
+        }
+
+    .menu .menu-item-icon {
+        width: 23px;
+        height: 23px;
+        background-image: url('../data/images/iconMenu.png');
+        background-repeat: no-repeat;
+    }
+
+    .menu .menu-item-text {
+        color: #ccc;
+        margin-left: 10px;
+        line-height: 40px;
+    }
+
+    .menu .icon-home {
+        background-position: -5px -5px;
+    }
+
+
+    .menu .icon-report {
+        background-position: -3px -194px;
+    }
+
+    .menu .icon-order {
+        background-position: -5px -458px;
+    }
+
+    .menu .icon-purchase {
+        background-position: -1px -377px;
+    }
+
+    .menu .icon-sale {
+        background-position: -3px -117px;
+    }
+
+    .menu .icon-manage {
+        background-position: -4px -421px;
+    }
+
+    .menu .icon-merchandise {
+        background-position: -3px -160px;
+    }

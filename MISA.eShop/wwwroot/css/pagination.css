@@ -1,0 +1,69 @@
+﻿.pagination {
+    display: flex;
+    width: calc(100% - 1px);
+    height: 20px;
+    align-items: center;
+    border: 1px solid #ccc;
+    background-color: #ededed !important;
+}
+
+    .pagination button {
+        height: 100%;
+        width: 24px;
+        border: none;
+        /*  background-color:#82a6fc;*/
+        background-position-y: 2px;
+        outline: none;
+    }
+
+        .pagination button:focus {
+            background-color: #dadada;
+        }
+
+    .pagination input {
+        width: 30px;
+        margin: 0 5px;
+        border: 1px solid #ccc;
+        outline: none;
+    }
+
+    .pagination .icon-page-first {
+        background: url('../data/common-icon.png') no-repeat -681px -131px;
+        width: 8px;
+        height: 8px;
+    }
+
+    .pagination .icon-page-prev {
+        background: url('../data/common-icon.png') no-repeat -733px -131px;
+        width: 5px;
+        height: 8px;
+    }
+
+    .pagination .icon-page-next {
+        background: url('../data/common-icon.png') no-repeat -783px -131px;
+        width: 5px;
+        height: 8px;
+    }
+
+    .pagination .icon-page-last {
+        background: url('../data/common-icon.png') no-repeat -831px -131px;
+        width: 5px;
+        height: 8px;
+    }
+
+    .pagination .icon-refresh {
+        background: url('../data/common-icon.png') no-repeat -880px -128px;
+        width: 10px;
+        height: 14px;
+    }
+
+    .pagination select {
+        margin-left: 10px;
+        width: 50px;
+        border: 1px solid #ccc;
+    }
+
+    .pagination .numberRecordOnpage {
+        position: absolute;
+        right: 20px;
+    }

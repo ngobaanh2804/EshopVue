@@ -1,0 +1,174 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>MISA.eShop</title>
+    <link href="../../css/shop.css" rel="stylesheet" />
+    <link href="../../css/menu.css" rel="stylesheet" />
+    <link href="../../css/content.css" rel="stylesheet" />
+    <link href="../../css/header.css" rel="stylesheet" />
+    <link href="../../css/toolbar.css" rel="stylesheet" />
+    <link href="../../css/button.css" rel="stylesheet" />
+    <link href="../../css/grid.css" rel="stylesheet" />
+    <link href="../../css/pagination.css" rel="stylesheet" />
+</head>
+<body style="margin: 0px">
+    <div class="menu">
+        <div class="logo">
+            <div class="menu-logo"></div>
+        </div>
+        <div class="menu-item">
+            <div class="menu-item-icon icon-home"></div>
+            <div class="menu-item-text">Tổng quan</div>
+        </div>
+        <div class="menu-item">
+            <div class="menu-item-icon icon-report"></div>
+            <div class="menu-item-text">Báo cáo</div>
+        </div>
+        <div class="menu-item">
+            <div class="menu-item-icon icon-order"></div>
+            <div class="menu-item-text">Đơn hàng</div>
+        </div>
+        <div class="menu-item">
+            <div class="menu-item-icon icon-purchase"></div>
+            <div class="menu-item-text">Mua hàng</div>
+        </div>
+        <div class="menu-item">
+            <div class="menu-item-icon icon-sale"></div>
+            <div class="menu-item-text">Khuyến mại</div>
+        </div>
+        <div class="menu-item">
+            <div class="menu-item-icon icon-manage"></div>
+            <div class="menu-item-text">Quản lý cửa hàng</div>
+        </div>
+        <div class="menu-item">
+            <div class="menu-item-icon icon-merchandise"></div>
+            <div class="menu-item-text">Hàng hóa</div>
+        </div>
+    </div>
+    <div class="header">
+        <div class="header-title">
+            Cửa hàng
+        </div>
+        <div class="header-right">
+            <div class="branch">
+                <select>
+                    <option>Vinmart</option>
+                    <option>BigC</option>
+                    <option>Lotte</option>
+                </select>
+            </div>
+            <div class="Info">
+                <button>
+                </button>
+            </div>
+            <div class="contact">
+
+            </div>
+            <div class="notify">
+
+            </div>
+            <div class="help">
+            </div>
+        </div>
+    </div>
+    <div class="content">
+        <div class="toolbar">
+            <button id="btnAdd">
+                <div class="btn-icon btn-icon-add"></div>
+                <div class="btn-text">Thêm mới</div>
+            </button>
+            <button id="btnDuplicate">
+                <div class="btn-icon btn-icon-duplicate"></div>
+                <div class="btn-text">Nhân bản</div>
+            </button>
+            <button id="btnEdit">
+                <div class="btn-icon btn-icon-edit"></div>
+                <div class="btn-text">Sửa</div>
+            </button>
+            <button id="btnDelete">
+                <div class="btn-icon btn-icon-delete"></div>
+                <div class="btn-text">Xóa</div>
+            </button>
+            <button id="btnRefresh">
+                <div class="btn-icon btn-icon-refresh"></div>
+                <div class="btn-text">Nạp</div>
+            </button>
+
+        </div>
+        <div class="grid">
+
+            <table style="width: 100%" class="tableFixHead" id="tableListEmployee">
+                <thead>
+                    <tr>
+                        <th width="10%"><div>Mã cửa hàng</div></th>
+                        <th width="15%"><div>Tên cửa hàng</div></th>
+                        <th width="55%"><div>Địa chỉ</div></th>
+                        <th width="10%"><div>Số điện thoại</div></th>
+                        <th width="10%"><div>Trạng thái</div></th>
+
+                    </tr>
+
+                </thead>
+                <tbody id="myTable">
+                    <tr>
+                        <td>129VM</td>
+                        <td>Vinmart+ Hà Đông</td>
+                        <td>Số 10 Trần Phú, Hà Đông</td>
+                        <td>0941716997</td>
+                        <td>Đang hoạt động</td>
+                    </tr>
+                    <tr>
+                        <td>129VM</td>
+                        <td>Vinmart+ Hà Đông</td>
+                        <td>Số 10 Trần Phú, Hà Đông</td>
+                        <td>0941716997</td>
+                        <td>Đang hoạt động</td>
+                    </tr>
+                    <tr>
+                        <td>129VM</td>
+                        <td>Vinmart+ Hà Đông</td>
+                        <td>Số 10 Trần Phú, Hà Đông</td>
+                        <td>0941716997</td>
+                        <td>Đang hoạt động</td>
+                    </tr>
+                    <tr>
+                        <td>129VM</td>
+                        <td>Vinmart+ Hà Đông</td>
+                        <td>Số 10 Trần Phú, Hà Đông</td>
+                        <td>0941716997</td>
+                        <td>Đang hoạt động</td>
+                    </tr>
+                    <tr>
+                        <td>129VM</td>
+                        <td>Vinmart+ Hà Đông</td>
+                        <td>Số 10 Trần Phú, Hà Đông</td>
+                        <td>0941716997</td>
+                        <td>Đang hoạt động</td>
+                    </tr>
+                </tbody>
+
+            </table>
+        </div>
+        <div class="pagination">
+            <button class="icon-page-first" id="btn-first-page"></button>
+            <button class="icon-page-prev" id="btn-prev-page"></button>
+            <div>Trang </div>
+
+            <div><input type="text" value="1" id="pagenum" /></div>
+            <div id="total-page">Trên 1</div>
+            <button class="icon-page-next" id="btn-next-page"></button>
+            <button class="icon-page-last" id="btn-last-page"></button>
+            <button class="icon-refresh"></button>
+            <select id="sltpagesize">
+                <option value="1">1</option>
+                <option value="10">10</option>
+                <option value="20">20</option>
+                <option value="50" selected>50</option>
+                <option value="100">100</option>
+            </select>
+            <div class="numberRecordOnpage">Hiển thị <span></span>1-13 trang</div>
+        </div>
+    </div>
+</body>
+</html>

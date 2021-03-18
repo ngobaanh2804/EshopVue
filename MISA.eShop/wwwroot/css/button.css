@@ -1,0 +1,49 @@
+﻿    /*button .btn-icon {
+        width: 16px;
+        height: 16px;
+        background-image: url('../data/images/IconSprite.png');
+        background-position: 0 -2648px !important;
+    }
+    */
+button .btn-text {
+    margin-left: 8px;
+}
+
+button:focus {
+    outline: none;
+}
+
+button .btn-icon.btn-icon-add {
+    width: 16px;
+    height: 16px;
+    background-image: url('../data/common-icon.png');
+    background-position: 0px -128px !important;
+}
+
+button .btn-icon.btn-icon-duplicate {
+    width: 16px;
+    height: 16px;
+    background-image: url('../data/common-icon.png');
+    background-position: -978px -127px !important;
+}
+
+button .btn-icon.btn-icon-edit {
+    width: 16px;
+    height: 16px;
+    background-image: url('../data/common-icon.png');
+    background-position: -79px -203px !important;
+}
+
+button .btn-icon.btn-icon-delete {
+    width: 16px;
+    height: 16px;
+    background-image: url('../data/common-icon.png');
+    background-position: -4px -53px !important;
+}
+
+button .btn-icon.btn-icon-refresh {
+    width: 16px;
+    height: 16px;
+    background-image: url('../data/common-icon.png');
+    background-position: -129px -202px !important;
+}

@@ -1,0 +1,37 @@
+.dialog {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.dialog .dialog-model {
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+    background-color: #000000;
+}
+
+.dialog .dialog-form {
+    position: absolute;
+    width: 500px;
+    height: 400px;
+    top: calc(50% - 250px);
+    left: calc(50% - 200px);
+    background-color: #fff;
+    border: 3px solid #0c0048;
+}
+
+.dialog .dialog-form .dialog-header {
+    width: calc(100% - 2px);
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+    height: 50px;
+    border: 1px solid #ccc;
+    background-color: #ededed !important;
+}
+
+.dialog .dialog-form .dialog-header label {
+    margin-left: 16px;
+    font-weight: bold;
+}

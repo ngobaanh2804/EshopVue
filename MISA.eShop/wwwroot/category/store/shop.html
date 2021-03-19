@@ -14,6 +14,7 @@
     <link href="../../css/dialog.css" rel="stylesheet" />
 </head>
 <body style="margin: 0px">
+    <!--menu-->
     <div class="menu">
         <div class="logo">
             <div class="menu-logo"></div>
@@ -47,6 +48,7 @@
             <div class="menu-item-text">Hàng hóa</div>
         </div>
     </div>
+    <!--header-->
     <div class="header">
         <div class="header-title">
             Cửa hàng
@@ -74,6 +76,7 @@
         </div>
     </div>
     <div class="content">
+        <!--toolbar-->
         <div class="toolbar">
             <button id="btnAdd">
                 <div class="btn-icon btn-icon-add"></div>
@@ -154,10 +157,10 @@
         <div class="pagination">
             <button class="icon-page-first" id="btn-first-page"></button>
             <button class="icon-page-prev" id="btn-prev-page"></button>
-            <div>Trang </div>
+            <div style="margin-left: 8px"> Trang </div>
 
             <div><input type="text" value="1" id="pagenum" /></div>
-            <div id="total-page">Trên 1</div>
+            <div id="total-page"> Trên 1  </div>
             <button class="icon-page-next" id="btn-next-page"></button>
             <button class="icon-page-last" id="btn-last-page"></button>
             <button class="icon-refresh"></button>
@@ -171,7 +174,8 @@
             <div class="numberRecordOnpage">Hiển thị <span></span>1-13 trang</div>
         </div>
     </div>
-    <div class="dialog">
+    <!--dialog-->
+    <div class="dialog" style="display: none">
         <div class="dialog-model">
         </div>
         <div class="dialog-form">
@@ -179,46 +183,89 @@
                 <label>Thêm mới cửa hàng</label>
             </div>
             <div class="dialog-body">
-                <div>
-                    <label>Mã cửa hàng<span>*</span></label>
-                </div>
-                <div>
-                    <label>Tên cửa hàng<span>*</span></label>
-                </div>
-                <div>
-                    <label>Địa chỉ<span>*</span></label>
-                </div>
-                <div>
-                    <div>
-                        <label>Số điện thoại</label>
-                    </div>
-                    <div>
-                        <label>Mã số thuế</label>
-                    </div>
-                </div>
-                <div>
-                    <div>
-                        <label>Quốc gia</label>
-                    </div>
-                </div>
-                <div>
-                    <div>
-                        <label>Tỉnh/Thành phố</label>
-                    </div>
-                    <div>
-                        <label>Quận/Huyện</label>
-                    </div>
-                </div>
-                <div>
-                    <div>
-                        <label>Phường/Xã</label>
-                    </div>
-                    <div>
-                        <label>Đường phố</label>
-                    </div>
-                </div>
+                <form method="post" id="formid" name="add-edit">
+                    <table width="100%" align="center" cellpadding="0" cellspacing="0">
+                        <tr>
+                            <th width="130px"></th>
+                            <th width="175px"></th>
+                            <th width="120px"></th>
+                            <th width="175px"></th>
+                        </tr>
+                        <tr>
+                            <td class="td_content">Mã cửa hàng<span style="color:red"> * </span></td>
+                            <td colspan="4"><input type="text" name="ShopCode" /></td>
+
+                        </tr>
+                        <tr>
+                            <td class="td_content">Tên cửa hàng <span style="color:red"> * </span></td>
+                            <td colspan="4"><input type="text" name="ShopName" /></td>
+                        </tr>
+                        <tr>
+                            <td class="textarea">Địa chỉ<span style="color:red"> * </span></td>
+                            <td colspan="4"><textarea style=" width: 445px; height: 66px; resize: none;"></textarea></td>
+
+                        </tr>
+                        <tr>
+                            <td class="td_content">Số điện thoại</td>
+                            <td colspan="1"><input type="text" name="PhoneNumber" /></td>
+                            <td class="td_content_center">Mã số thuế</td>
+                            <td><input type="text" name="TaxCode" /></td>
+                        </tr>
+                        <tr>
+                            <td class="td_content">Quốc gia</td>
+                            <td colspan="1">
+                                <select name="National">
+                                    <option value="Việt Nam">Việt Nam</option>
+                                    <option value="Thái Lan">Thái Lan</option>
+                                    <option value="Hàn Quốc">Hàn Quốc</option>
+                                    <option value="Nhật Bản">Nhật Bản</option>
+                                </select>
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td class="td_content">Tỉnh/Thành phố</td>
+                            <td colspan="1"><input type="text" name="TaxCode" /></td>
+                            <td class="td_content_center ">Quận/Huyện</td>
+                            <td colspan="1"><input type="text" name="Salary" /></td>
+                        </tr>
+                        <tr>
+                            <td class="td_content">Phường/Xã</td>
+                            <td colspan="1"><input type="text" name="TaxCode" /></td>
+                            <td class="td_content_center ">Đường phố</td>
+                            <td colspan="1"><input type="text" name="Street" /></td>
+                        </tr>
+                        <tr>
+                            <td colspan="4"><hr /></td>
+                        </tr>
+                    </table>
+                </form>
             </div>
             <div class="dialog-footer">
+                <div class="left_button">
+                    <button>
+                        <div class="btn-icon btn-icon-help"></div>
+                        <div class="btn-text">Trợ giúp</div>
+                    </button>
+                </div>
+                <div class="right_button">
+
+                    <button>
+                        <div class="btn-icon btn-icon-save"></div>
+                        <div class="btn-text">Lưu</div>
+                    </button>
+
+                    <button>
+                        <div class="btn-icon btn-icon-saveas"></div>
+                        <div class="btn-text">Lưu và thêm mới</div>
+                    </button>
+
+                    <button>
+                        <div class="btn-icon btn-icon-cancel"></div>
+                        <div class="btn-text">Hủy bỏ</div>
+                    </button>
+
+                </div>
             </div>
         </div>
     </div>

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\NBAnh\\source\\repos\\MISA.eShop\\MISA.eShop\\MISA.eShop.csproj": {}
+    "C:\\Users\\NBAnh\\Desktop\\New folder\\EshopVue\\MISA.eShop\\MISA.eShop.csproj": {}
   },
   "projects": {
-    "C:\\Users\\NBAnh\\source\\repos\\MISA.eShop\\MISA.eShop\\MISA.eShop.csproj": {
+    "C:\\Users\\NBAnh\\Desktop\\New folder\\EshopVue\\MISA.eShop\\MISA.eShop.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\NBAnh\\source\\repos\\MISA.eShop\\MISA.eShop\\MISA.eShop.csproj",
+        "projectUniqueName": "C:\\Users\\NBAnh\\Desktop\\New folder\\EshopVue\\MISA.eShop\\MISA.eShop.csproj",
         "projectName": "MISA.eShop",
-        "projectPath": "C:\\Users\\NBAnh\\source\\repos\\MISA.eShop\\MISA.eShop\\MISA.eShop.csproj",
+        "projectPath": "C:\\Users\\NBAnh\\Desktop\\New folder\\EshopVue\\MISA.eShop\\MISA.eShop.csproj",
         "packagesPath": "C:\\Users\\NBAnh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\NBAnh\\source\\repos\\MISA.eShop\\MISA.eShop\\obj\\",
+        "outputPath": "C:\\Users\\NBAnh\\Desktop\\New folder\\EshopVue\\MISA.eShop\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

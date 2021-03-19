@@ -47,3 +47,28 @@ button .btn-icon.btn-icon-refresh {
     background-image: url('../data/common-icon.png');
     background-position: -129px -202px !important;
 }
+
+button .btn-icon.btn-icon-help {
+    width: 16px;
+    height: 16px;
+    background-image: url('../data/common-icon.png');
+    background-position: -4px -130px !important;
+}
+button .btn-icon.btn-icon-save {
+    width: 16px;
+    height: 16px;
+    background-image: url('../data/common-icon.png');
+    background-position: -330px -129px !important;
+}
+button .btn-icon.btn-icon-saveas {
+    width: 16px;
+    height: 16px;
+    background-image: url('../data/common-icon.png');
+    background-position: -4px -130px !important;
+}
+button .btn-icon.btn-icon-cancel {
+    width: 16px;
+    height: 16px;
+    background-image: url('../data/common-icon.png');
+    background-position: -280px -130px !important;
+}
